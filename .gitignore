@@ -1,0 +1,6 @@
+# Vim swap
+*.swp
+
+# Python sdist
+*.egg-info
+dist
