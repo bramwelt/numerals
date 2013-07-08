@@ -1,0 +1,30 @@
+========
+Numerals
+========
+
+The primary goal of this package is to be used as a reference on
+packaging python code. Its secondary goal is to function as a working
+Roman numeral converter and translator.
+
+Examples
+--------
+Given a integer convert it to a unicode string of Roman numerals::
+
+    $ python
+    >>> from numerals import int_to_roman
+    >>> int_to_roman(7)
+    >>> u'VII'
+
+Given a unicode string of Roman numerals, return an integer::
+
+    $ python
+    >>> from numerals import roman_to_int
+    >>> roman_to_int(u'XLII')
+    >>> 42
+
+Installation
+------------
+
+::
+    pip install numerals
+
