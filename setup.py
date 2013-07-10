@@ -6,4 +6,5 @@ setup(
     url = "http://github.com/bramwelt/numerals",
     author = "Trevor Bramwell",
     author_email = "trevor@bramwell.net",
+    test_suite = "numerals.tests",
 )
