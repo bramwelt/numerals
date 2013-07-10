@@ -4,3 +4,6 @@
 # Python sdist
 *.egg-info
 dist
+
+# Python byte code
+*.pyc
