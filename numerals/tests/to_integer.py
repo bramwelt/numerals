@@ -10,6 +10,6 @@ class IntegerTestCase(unittest.TestCase):
 
     def test_five(self):
         """
-        5 = 'V'
+        5 == 'V'
         """
         self.assertEqual(5, to_integer('V'))
