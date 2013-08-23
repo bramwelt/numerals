@@ -8,8 +8,32 @@ class IntegerTestCase(unittest.TestCase):
     Tests related to converting numerals to integers
     """
 
+    def test_one(self):
+        self.assertEqual(1, to_integer('I'))
+
+    def test_two(self):
+        self.assertEqual(2, to_integer('II'))
+
+    def test_three(self):
+        self.assertEqual(3, to_integer('III'))
+
+    def test_four(self):
+        self.assertEqual(4, to_integer('IV'))
+
     def test_five(self):
-        """
-        5 == 'V'
-        """
         self.assertEqual(5, to_integer('V'))
+
+    def test_six(self):
+        self.assertEqual(6, to_integer('VI'))
+
+    def test_seven(self):
+        self.assertEqual(7, to_integer('VII'))
+
+    def test_eight(self):
+        self.assertEqual(8, to_integer('VIII'))
+
+    def test_nine(self):
+        self.assertEqual(9, to_integer('IX'))
+
+    def test_ten(self):
+        self.assertEqual(10, to_integer('X'))
