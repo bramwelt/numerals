@@ -8,6 +8,12 @@ class NumeralTestCase(unittest.TestCase):
     Tests related to converting integers to numerals
     """
 
+    def test_index_error_raised_for_zero(self):
+        self.assertRaises(IndexError, to_numeral, 0)
+
+    def test_index_error_raised_for_neg(self):
+        self.assertRaises(IndexError, to_numeral, -10)
+
     def test_one(self):
         self.assertEqual('I', to_numeral(1))
 

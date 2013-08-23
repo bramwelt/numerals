@@ -8,6 +8,9 @@ class IntegerTestCase(unittest.TestCase):
     Tests related to converting numerals to integers
     """
 
+    def test_type_error_raised_for_bad_input(self):
+        self.assertRaises(TypeError, to_integer, 'cats')
+
     def test_one(self):
         self.assertEqual(1, to_integer('I'))
 
