@@ -22,6 +22,8 @@ def to_integer(numeral):
     if not isNumeral(numeral):
         raise TypeError("Could not coerce {0} to integer.".format(numeral))
 
+    numeral.upper()
+
     return int(5)
 
 
