@@ -40,3 +40,15 @@ class IntegerTestCase(unittest.TestCase):
 
     def test_ten(self):
         self.assertEqual(10, to_integer('X'))
+
+    def test_fifty(self):
+        self.assertEqual(50, to_integer('L'))
+
+    def test_one_hundred(self):
+        self.assertEqual(100, to_integer('C'))
+
+    def test_five_hundred(self):
+        self.assertEqual(500, to_integer('D'))
+
+    def test_one_thousand(self):
+        self.assertEqual(1000, to_integer('M'))

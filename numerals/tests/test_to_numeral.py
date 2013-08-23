@@ -43,3 +43,15 @@ class NumeralTestCase(unittest.TestCase):
 
     def test_ten(self):
         self.assertEqual('X', to_numeral(10))
+
+    def test_fifty(self):
+        self.assertEqual('L', to_numeral(50))
+
+    def test_one_hundred(self):
+        self.assertEqual('C', to_numeral(100))
+
+    def test_five_hundred(self):
+        self.assertEqual('D', to_numeral(500))
+
+    def test_one_thousand(self):
+        self.assertEqual('M', to_numeral(1000))
