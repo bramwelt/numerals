@@ -10,6 +10,9 @@ def isNumeral(numeral):
     Given a string, make sure it only contains acceptable characters for
     numerals (I,V,X,L,C,D,M).
     """
+    for char in numeral:
+        if char.upper() not in 'IVXLCDM':
+            return False
     return True
 
 def to_integer(numeral):
