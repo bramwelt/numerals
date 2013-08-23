@@ -3,7 +3,7 @@ Numerals
 ========
 
 .. image:: https://travis-ci.org/bramwelt/numerals.png?branch=master
-:target: https://travis-ci.org/bramwelt/numerals
+    :target: https://travis-ci.org/bramwelt/numerals
 
 The primary goal of this package is to be used as a reference on
 packaging python code. Its secondary goal is to function as a working
